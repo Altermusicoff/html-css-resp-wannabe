@@ -17,10 +17,11 @@
   }
 
   img, h1, h3{
-    max-width: 100%;
+    min-width: 100%;
   }
 
   img{
-    object-fit: contain;
+    object-fit: scale-down;
+
   }
 }
